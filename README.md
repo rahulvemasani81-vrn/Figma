@@ -29,367 +29,437 @@ Publish the website in the given URL.
 Figma
 
 # CODE:
-Page 1
-<div class="group-1">
-  <div class="i-phone-16-1">
-    <img class="logo-1" src="logo-10.png" />
-    <div class="rectangle-1"></div>
-    <div class="register">REGISTER</div>
-    <div class="event-day-registration-24-25">
-      EVENT DAY
-      <br />
-      REGISTRATION
-      <br />
-      24-25
+Page 1:
+index.html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="android-large">
+      <img class="nebula" src="img/nebula1-1.png" />
+      <img class="SEC-logo" src="img/SEC-logo-1-1.png" />
+      <div class="rectangle"></div>
+      <div class="text-wrapper">REGISTER</div>
+      <img class="img" src="img/rectangle.svg" />
+      <div class="div">LOGIN</div>
+      <div class="ellipse"></div>
+      <div class="text-wrapper-2">Nebula Nights</div>
     </div>
-    <div class="rectangle-2"></div>
-    <div class="login">LOGIN</div>
-  </div>
-</div>
-.group-1,
-.group-1 * {
+  </body>
+</html>
+
+globals.css
+
+ @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
-.group-1 {
-  height: 852px;
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+style.css
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+
+Page 2:
+index.html
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="android-large">
+      <img class="nebula" src="img/nebula-1.png" />
+      <div class="text-wrapper">Agenda:</div>
+      <p class="DJ-nights-live-music">
+        <span class="span">*</span>
+        <a
+          href="https://www.google.com/search?sca_esv=69afb27cda6b1637&rlz=1C1GCEA_en-GB&cs=0&sxsrf=AE3TifOpY1-XUZJ6mZYSH_y2c1LRCiMpdA%3A1760111230882&q=DJ+Nights&sa=X&ved=2ahUKEwj-rLel_ZmQAxXyoWMGHQ3uL8AQxccNegQIGhAB&mstk=AUtExfDIbV4Fe1MYeQrW0BuOOPnKURAlNyx7tVEFwirVBA8awINniwPAvLrHpyqlXhU9m-m4hdyqErlikLMipg_c_OypWLm4ecslnhUS3I5uUQHy_trkmoVnGtHJi_6P5J2YBxRDn_XUrMh_2ug2QnsppGHZ67eAQ_nvnWwGlbsfhtW33zVDEiAXu50fhoAIFDG7NHf5381PIzYCQaLO1aQRZEfD_9XT8LyjDPHnI6cm-d1m8t76lr4CnQ9u6jvQdCBsYxZY1o6qDnR0Pq9KYFGnF1wB&csui=3"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span class="text-wrapper-2">DJ Nights<br /></span
+        ></a>
+        <span class="span"><br /><br />*</span>
+        <a
+          href="https://www.google.com/search?sca_esv=69afb27cda6b1637&rlz=1C1GCEA_en-GB&cs=0&sxsrf=AE3TifOpY1-XUZJ6mZYSH_y2c1LRCiMpdA%3A1760111230882&q=Live+Music+Venues&sa=X&ved=2ahUKEwj-rLel_ZmQAxXyoWMGHQ3uL8AQxccNegQILBAB&mstk=AUtExfDIbV4Fe1MYeQrW0BuOOPnKURAlNyx7tVEFwirVBA8awINniwPAvLrHpyqlXhU9m-m4hdyqErlikLMipg_c_OypWLm4ecslnhUS3I5uUQHy_trkmoVnGtHJi_6P5J2YBxRDn_XUrMh_2ug2QnsppGHZ67eAQ_nvnWwGlbsfhtW33zVDEiAXu50fhoAIFDG7NHf5381PIzYCQaLO1aQRZEfD_9XT8LyjDPHnI6cm-d1m8t76lr4CnQ9u6jvQdCBsYxZY1o6qDnR0Pq9KYFGnF1wB&csui=3"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span class="text-wrapper-2">Live Music Venues<br /></span
+        ></a>
+        <span class="span"><br /><br />*</span>
+        <a
+          href="https://www.google.com/search?sca_esv=69afb27cda6b1637&rlz=1C1GCEA_en-GB&cs=0&sxsrf=AE3TifOpY1-XUZJ6mZYSH_y2c1LRCiMpdA%3A1760111230882&q=Open-Air+Movies&sa=X&ved=2ahUKEwj-rLel_ZmQAxXyoWMGHQ3uL8AQxccNegQIRhAB&mstk=AUtExfDIbV4Fe1MYeQrW0BuOOPnKURAlNyx7tVEFwirVBA8awINniwPAvLrHpyqlXhU9m-m4hdyqErlikLMipg_c_OypWLm4ecslnhUS3I5uUQHy_trkmoVnGtHJi_6P5J2YBxRDn_XUrMh_2ug2QnsppGHZ67eAQ_nvnWwGlbsfhtW33zVDEiAXu50fhoAIFDG7NHf5381PIzYCQaLO1aQRZEfD_9XT8LyjDPHnI6cm-d1m8t76lr4CnQ9u6jvQdCBsYxZY1o6qDnR0Pq9KYFGnF1wB&csui=3"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span class="text-wrapper-2">Open-Air Movies<br /></span
+        ></a>
+        <span class="span"><br /><br />*</span>
+        <a
+          href="https://www.google.com/search?sca_esv=69afb27cda6b1637&rlz=1C1GCEA_en-GB&cs=0&sxsrf=AE3TifOpY1-XUZJ6mZYSH_y2c1LRCiMpdA%3A1760111230882&q=Stand-up+Comedy&sa=X&ved=2ahUKEwj-rLel_ZmQAxXyoWMGHQ3uL8AQxccNegQIaxAB&mstk=AUtExfDIbV4Fe1MYeQrW0BuOOPnKURAlNyx7tVEFwirVBA8awINniwPAvLrHpyqlXhU9m-m4hdyqErlikLMipg_c_OypWLm4ecslnhUS3I5uUQHy_trkmoVnGtHJi_6P5J2YBxRDn_XUrMh_2ug2QnsppGHZ67eAQ_nvnWwGlbsfhtW33zVDEiAXu50fhoAIFDG7NHf5381PIzYCQaLO1aQRZEfD_9XT8LyjDPHnI6cm-d1m8t76lr4CnQ9u6jvQdCBsYxZY1o6qDnR0Pq9KYFGnF1wB&csui=3"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span class="text-wrapper-2">Stand-up Comedy<br /></span
+        ></a>
+        <span class="span"><br /><br />*</span>
+        <a
+          href="https://www.google.com/search?sca_esv=69afb27cda6b1637&rlz=1C1GCEA_en-GB&cs=0&sxsrf=AE3TifOpY1-XUZJ6mZYSH_y2c1LRCiMpdA%3A1760111230882&q=Rooftop+Bars&sa=X&ved=2ahUKEwj-rLel_ZmQAxXyoWMGHQ3uL8AQxccNegQINBAB&mstk=AUtExfDIbV4Fe1MYeQrW0BuOOPnKURAlNyx7tVEFwirVBA8awINniwPAvLrHpyqlXhU9m-m4hdyqErlikLMipg_c_OypWLm4ecslnhUS3I5uUQHy_trkmoVnGtHJi_6P5J2YBxRDn_XUrMh_2ug2QnsppGHZ67eAQ_nvnWwGlbsfhtW33zVDEiAXu50fhoAIFDG7NHf5381PIzYCQaLO1aQRZEfD_9XT8LyjDPHnI6cm-d1m8t76lr4CnQ9u6jvQdCBsYxZY1o6qDnR0Pq9KYFGnF1wB&csui=3"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span class="text-wrapper-2">Rooftop Bars</span></a
+        >
+      </p>
+      <img class="sec" src="img/sec-logo1-1.png" />
+    </div>
+  </body>
+</html>
+
+globals.css
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+style.css
+
+.android-large {
+  background-color: #ffffff;
+  width: 100%;
+  min-width: 360px;
+  min-height: 800px;
   position: relative;
 }
-.i-phone-16-1 {
-  background: #666dae;
-  width: 393px;
-  height: 852px;
+
+.android-large .nebula {
   position: absolute;
-  left: 0px;
-  top: 0px;
-  overflow: hidden;
-}
-.logo-1 {
-  width: 384px;
-  height: 58px;
-  position: absolute;
-  left: 4px;
-  top: 0px;
+  top: 0;
+  left: 0;
+  width: 360px;
+  height: 800px;
+  aspect-ratio: 0.58;
   object-fit: cover;
 }
-.rectangle-1 {
-  background: #201d1d;
-  width: 246px;
-  height: 78px;
+
+.android-large .text-wrapper {
   position: absolute;
-  left: 66px;
-  top: 348px;
-}
-.register {
-  color: #ffffff;
-  text-align: center;
-  font-family: "Inter-ExtraBold", sans-serif;
-  font-size: 30px;
+  top: 57px;
+  left: 14px;
+  font-family: "Inter-ExtraBold", Helvetica;
   font-weight: 800;
-  position: absolute;
-  left: 88px;
-  top: 369px;
-  width: 202px;
-  height: 37px;
+  color: #ffd5d5;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
 }
-.event-day-registration-24-25 {
-  color: #ffffff;
-  text-align: center;
-  font-family: "JacquesFrancoisShadow-Regular", sans-serif;
-  font-size: 30px;
-  font-weight: 400;
+
+.android-large .DJ-nights-live-music {
   position: absolute;
-  left: 49px;
-  top: 93px;
-}
-.rectangle-2 {
-  background: #201d1d;
-  width: 246px;
-  height: 78px;
-  position: absolute;
-  left: 66px;
-  top: 515px;
-}
-.login {
-  color: #ffffff;
-  text-align: center;
-  font-family: "Inter-ExtraBold", sans-serif;
-  font-size: 30px;
+  top: 158px;
+  left: 61px;
+  font-family: "Inter-ExtraBold", Helvetica;
   font-weight: 800;
-  position: absolute;
-  left: 142px;
-  top: 536px;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
 }
-Page 2
-<div class="i-phone-16-2">
-  <div class="events">EVENTS</div>
-  <div
-    class="treasure-hunt-tech-war-circuit-circus-skill-events-sports-events-music-event-flash-mob-debate-clubs-meet-greet"
-  >
-    &gt; TREASURE HUNT
-    <br />
-    <br />
-    &gt; TECH WAR
-    <br />
-    <br />
-    &gt; CIRCUIT CIRCUS
-    <br />
-    <br />
-    &gt; SKILL EVENTS
-    <br />
-    <br />
-    &gt; SPORTS EVENTS
-    <br />
-    <br />
-    &gt; MUSIC EVENT
-    <br />
-    <br />
-    &gt; FLASH MOB
-    <br />
-    <br />
-    &gt; DEBATE CLUBS
-    <br />
-    <br />
-    &gt; MEET &amp; GREET
-  </div>
-  <img class="logo-2" src="logo-20.png" />
-</div>
-.i-phone-16-2,
-.i-phone-16-2 * {
+
+.android-large .span {
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+}
+
+.android-large .text-wrapper-2 {
+  text-decoration: underline;
+}
+
+.android-large .sec {
+  position: absolute;
+  top: 213px;
+  left: 34px;
+  width: 290px;
+  height: 284px;
+  aspect-ratio: 1.02;
+  object-fit: cover;
+}
+
+Page 3:
+
+index.html
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="android-large">
+      <img class="neb" src="img/neb4-1.png" />
+      <div class="text-wrapper">admission form</div>
+      <div class="rectangle"></div>
+      <div class="div"></div>
+      <div class="rectangle-2"></div>
+      <div class="rectangle-3"></div>
+      <div class="rectangle-4"></div>
+      <div class="rectangle-5"></div>
+      <div class="text-wrapper-2">REGISTER</div>
+      <div class="text-wrapper-3">NAME</div>
+      <div class="text-wrapper-4">AGE</div>
+      <div class="text-wrapper-5">REGISTER NUMBER</div>
+      <div class="text-wrapper-6">DEPARTMENT</div>
+      <div class="text-wrapper-7">MOBILE NUMBER</div>
+    </div>
+  </body>
+</html>
+
+globals.css
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
-.i-phone-16-2 {
-  background: #eff851;
-  height: 852px;
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+style.css
+
+.android-large {
+  background-color: #ffffff;
+  width: 100%;
+  min-width: 360px;
+  min-height: 800px;
   position: relative;
-  overflow: hidden;
 }
-.events {
-  color: #000000;
-  text-align: center;
-  font-family: "JacquesFrancoisShadow-Regular", sans-serif;
-  font-size: 30px;
-  font-weight: 400;
+
+.android-large .neb {
   position: absolute;
-  left: 123px;
-  top: 112px;
+  top: 0;
+  left: 0;
+  width: 360px;
+  height: 800px;
+  aspect-ratio: 0.49;
+  object-fit: cover;
 }
-.treasure-hunt-tech-war-circuit-circus-skill-events-sports-events-music-event-flash-mob-debate-clubs-meet-greet {
-  color: #000000;
-  text-align: left;
-  font-family: "Graduate-Regular", sans-serif;
-  font-size: 30px;
-  font-weight: 400;
+
+.android-large .text-wrapper {
   position: absolute;
-  left: 54px;
+  top: 24px;
+  left: 78px;
+  width: 204px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffd7ed;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.android-large .rectangle {
+  position: absolute;
+  top: 136px;
+  left: 34px;
+  width: 264px;
+  height: 26px;
+  background-color: #d9d9d9;
+}
+
+.android-large .div {
+  position: absolute;
   top: 208px;
+  left: 34px;
+  width: 92px;
+  height: 32px;
+  background-color: #d9d9d9;
 }
-.logo-2 {
-  width: 386.67px;
-  height: 58px;
+
+.android-large .rectangle-2 {
   position: absolute;
-  left: 4px;
-  top: 0px;
-  object-fit: cover;
+  top: 286px;
+  left: 34px;
+  width: 241px;
+  height: 35px;
+  background-color: #d9d9d9;
 }
-Page 3
-<div class="i-phone-16-3">
-  <img class="logo-3" src="logo-30.png" />
-  <div class="registration-form">
-    REGISTRATION
-    <br />
-    FORM
-  </div>
-  <div class="rectangle-3"></div>
-  <div class="name">NAME</div>
-  <div class="rectangle-4"></div>
-  <div class="rectangle-5"></div>
-  <div class="rectangle-6"></div>
-  <div class="rectangle-7"></div>
-  <div class="reg-no">REG.NO</div>
-  <div class="e-mail-id">E-MAIL ID</div>
-  <div class="event-to-register">
-    EVENT TO
-    <br />
-    REGISTER
-  </div>
-  <div class="register">REGISTER</div>
-</div>
-.i-phone-16-3,
-.i-phone-16-3 * {
-  box-sizing: border-box;
-}
-.i-phone-16-3 {
-  background: #cb3e3e;
-  height: 852px;
-  position: relative;
-  overflow: hidden;
-}
-.logo-3 {
-  width: 386.67px;
-  height: 58px;
+
+.android-large .rectangle-3 {
   position: absolute;
-  left: 4px;
-  top: 0px;
-  object-fit: cover;
+  top: 351px;
+  left: 34px;
+  width: 236px;
+  height: 38px;
+  background-color: #d9d9d9;
 }
-.registration-form {
-  color: #ffffff;
-  text-align: center;
-  font-family: "JacquesFrancoisShadow-Regular", sans-serif;
-  font-size: 30px;
-  font-weight: 400;
+
+.android-large .rectangle-4 {
   position: absolute;
-  left: 57px;
-  top: 109px;
+  top: 444px;
+  left: 34px;
+  width: 241px;
+  height: 33px;
+  background-color: #d9d9d9;
 }
-.rectangle-3 {
-  background: #ffffff;
-  width: 313px;
-  height: 71px;
+
+.android-large .rectangle-5 {
   position: absolute;
-  left: 60px;
-  top: 230px;
+  top: 632px;
+  left: 52px;
+  width: 246px;
+  height: 66px;
+  background-color: #fff600;
 }
-.name {
-  color: #000000;
-  text-align: center;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 30px;
-  font-weight: 700;
+
+.android-large .text-wrapper-2 {
   position: absolute;
-  left: 151px;
-  top: 247px;
+  top: 650px;
+  left: 115px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #f90909;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
 }
-.rectangle-4 {
-  background: #ffffff;
-  width: 313px;
-  height: 71px;
+
+.android-large .text-wrapper-3 {
   position: absolute;
-  left: 60px;
-  top: 342px;
+  top: 139px;
+  left: 43px;
+  width: 292px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #8651c8;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
 }
-.rectangle-5 {
-  background: #ffffff;
-  width: 313px;
-  height: 71px;
+
+.android-large .text-wrapper-4 {
   position: absolute;
-  left: 60px;
-  top: 454px;
+  top: 209px;
+  left: 34px;
+  width: 132px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #975cb1;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
 }
-.rectangle-6 {
-  background: #ffffff;
-  width: 313px;
-  height: 71px;
+
+.android-large .text-wrapper-5 {
   position: absolute;
-  left: 60px;
-  top: 566px;
+  top: 288px;
+  left: 42px;
+  width: 307px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #9942af;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
 }
-.rectangle-7 {
-  background: #201d1d;
-  width: 299px;
-  height: 81px;
+
+.android-large .text-wrapper-6 {
   position: absolute;
-  left: 53px;
-  top: 728px;
+  top: 354px;
+  left: 43px;
+  width: 298px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #a45db0;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
 }
-.reg-no {
-  color: #000000;
-  text-align: center;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 30px;
-  font-weight: 700;
+
+.android-large .text-wrapper-7 {
   position: absolute;
-  left: 151px;
-  top: 359px;
-}
-.e-mail-id {
-  color: #000000;
-  text-align: center;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 30px;
-  font-weight: 700;
-  position: absolute;
-  left: 144px;
-  top: 472px;
-}
-.event-to-register {
-  color: #000000;
-  text-align: center;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 30px;
-  font-weight: 700;
-  position: absolute;
-  left: 133px;
-  top: 566px;
-}
-.register {
-  color: #ffffff;
-  text-align: center;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 30px;
-  font-weight: 700;
-  position: absolute;
-  left: 119px;
-  top: 751px;
-}
-Page 4
-<div class="i-phone-16-4">
-  <img class="logo-4" src="logo-40.png" />
-  <div class="thank-you">THANK YOU!!</div>
-  <div
-    class="thanks-for-registering-we-are-eagerly-waiting-for-your-participation"
-  >
-    THANKS FOR
-    <br />
-    REGISTERING!!! WE ARE
-    <br />
-    EAGERLY WAITING
-    <br />
-    FOR YOUR
-    <br />
-    PARTICIPATION
-  </div>
-</div>
-.i-phone-16-4,
-.i-phone-16-4 * {
-  box-sizing: border-box;
-}
-.i-phone-16-4 {
-  background: #5ce475;
-  height: 852px;
-  position: relative;
-  overflow: hidden;
-}
-.logo-4 {
-  width: 386px;
-  height: 57.9px;
-  position: absolute;
-  left: 7px;
-  top: 0px;
-  object-fit: cover;
-}
-.thank-you {
-  color: #000000;
-  text-align: center;
-  font-family: "JacquesFrancoisShadow-Regular", sans-serif;
-  font-size: 30px;
-  font-weight: 400;
-  position: absolute;
-  left: 79px;
-  top: 189px;
-}
-.thanks-for-registering-we-are-eagerly-waiting-for-your-participation {
-  color: #000000;
-  text-align: center;
-  font-family: "Inter-Bold", sans-serif;
-  font-size: 30px;
-  font-weight: 700;
-  position: absolute;
-  left: 17px;
-  top: 325px;
+  top: 447px;
+  left: 37px;
+  width: 298px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #a75aa8;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
 }
 # OUTPUT:
-![Uploading image.png…]()
+<img width="815" height="534" alt="image" src="https://github.com/user-attachments/assets/46b1efba-9f2f-4ad6-a61e-6b33ea26f58b" />
+
 
 # RESULT:
 The program to design, develop and deploy a web application for event registration is completed successfully.
