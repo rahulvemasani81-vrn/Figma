@@ -29,6 +29,7 @@ Publish the website in the given URL.
 Figma
 
 # CODE:
+~~~
 Home Page
 <div class="Screenshot-2025-10-05-151026"></div>
 <div class="aurora-night-1"></div>
@@ -70,6 +71,7 @@ Home Page
   margin: 624px 0 0;
   mix-blend-mode: darken;
 }
+~~~
 # OUTPUT:
 <img width="815" height="534" alt="image" src="https://github.com/user-attachments/assets/46b1efba-9f2f-4ad6-a61e-6b33ea26f58b" />
 
